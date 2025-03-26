@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose }) => {
       }`}
     >
       <div className="modal-container">
-        <div className="bg-indigo-700 text-center p-5 h-96 w-[500px] rounded shadow-md">
+        <div className="bg-[#B36D6D] text-center p-5 h-96 w-[500px] rounded shadow-md">
           {/* Modal content, including login form */}
           {!isAuthenticated && (
             <h2 className="text-xl font-semibold mb-4 mt-6 mb-5 uppercase">
@@ -50,7 +50,7 @@ const Modal = ({ isOpen, onClose }) => {
               <button className="hover:shadow-form rounded-md bg-[#6A64F1] hover:bg-orange-600 py-3 px-8 text-base font-semibold text-white outline-none">
                 Login
               </button>
-              &nbsp; &nbsp; 
+              &nbsp; &nbsp;
               <button
                 className="hover:shadow-form rounded-md bg-[#6A64F1] hover:bg-orange-600 py-3 px-8 text-base font-semibold text-white outline-none"
                 onClick={() => loginWithRedirect()}

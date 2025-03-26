@@ -1,12 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import { FaAutoprefixer, FaCss3, FaDiceD6, FaDisplay, FaInfo, FaRegObjectUngroup, FaRegThumbsUp } from "react-icons/fa6";
+import {
+  FaAutoprefixer,
+  FaCss3,
+  FaDiceD6,
+  FaDisplay,
+  FaInfo,
+  FaRegObjectUngroup,
+  FaRegThumbsUp,
+} from "react-icons/fa6";
 
 const Services = () => {
   return (
-    <div className='text-white'>
-      <div className='py-40 bg-[rgb(137,80,80)] text-center px-4'>
-        <h1 className='lg:text-7xl text-5xl leading-snug font-bold mb-5'>Services Page</h1>
+    <div className="text-white">
+      <div className="py-40 bg-[rgb(137,80,80)] text-center px-4">
+        <h1 className="lg:text-7xl text-5xl leading-snug font-bold mb-5">
+          Services Page
+        </h1>
       </div>
 
       <div>
@@ -31,24 +41,29 @@ const Services = () => {
                     What We Offer
                   </h2>
                   <p className="text-base text-body-color">
-                    There are many variations of passages of Lorem Ipsum available
-                    but the majority have suffered alteration in some form.
+                    There are many variations of passages of Lorem Ipsum
+                    available but the majority have suffered alteration in some
+                    form.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4">
+            <div className="flex flex-wrap -mx-4 ">
               <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div
                   className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
+                p-10 
+      md:px-7 
+      xl:px-10 
+      rounded-2xl 
+      bg-white 
+      shadow-md 
+      hover:shadow-xl 
+      border border-gray-200 
+      hover:border-amber-500 
+      transition-all duration-300 
+      hover:scale-105
+      mb-8
                "
                 >
                   <div
@@ -63,7 +78,7 @@ const Services = () => {
                   mb-8
                   "
                   >
-                    <FaAutoprefixer className='w-44 h-44 text-blue-700' />
+                    <FaAutoprefixer className="w-44 h-44 text-blue-700" />
                   </div>
                   <h4 className="font-semibold text-xl text-dark mb-3">
                     Refreshing Design
@@ -77,14 +92,18 @@ const Services = () => {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div
                   className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
+                p-10 
+      md:px-7 
+      xl:px-10 
+      rounded-2xl 
+      bg-white 
+      shadow-md 
+      hover:shadow-xl 
+      border border-gray-200 
+      hover:border-amber-500 
+      transition-all duration-300 
+      hover:scale-105
+      mb-8
                "
                 >
                   <div
@@ -99,7 +118,7 @@ const Services = () => {
                   mb-8
                   "
                   >
-                    <FaCss3 className='w-44 h-44 text-blue-700' />
+                    <FaCss3 className="w-44 h-44 text-blue-700" />
                   </div>
                   <h4 className="font-semibold text-xl text-dark mb-3">
                     Based on Tailwind CSS
@@ -113,14 +132,18 @@ const Services = () => {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div
                   className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
+               p-10 
+      md:px-7 
+      xl:px-10 
+      rounded-2xl 
+      bg-white 
+      shadow-md 
+      hover:shadow-xl 
+      border border-gray-200 
+      hover:border-amber-500 
+      transition-all duration-300 
+      hover:scale-105
+      mb-8
                "
                 >
                   <div
@@ -135,7 +158,7 @@ const Services = () => {
                   mb-8
                   "
                   >
-                     <FaDiceD6 className='w-44 h-44 text-blue-700' />
+                    <FaDiceD6 className="w-44 h-44 text-blue-700" />
                   </div>
                   <h4 className="font-semibold text-xl text-dark mb-3">
                     300+ Components
@@ -149,14 +172,18 @@ const Services = () => {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div
                   className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
+                p-10 
+      md:px-7 
+      xl:px-10 
+      rounded-2xl 
+      bg-white 
+      shadow-md 
+      hover:shadow-xl 
+      border border-gray-200 
+      hover:border-amber-500 
+      transition-all duration-300 
+      hover:scale-105
+      mb-8
                "
                 >
                   <div
@@ -171,7 +198,7 @@ const Services = () => {
                   mb-8
                   "
                   >
-                    <FaDisplay className='w-44 h-44 text-blue-700' />
+                    <FaDisplay className="w-44 h-44 text-blue-700" />
                   </div>
                   <h4 className="font-semibold text-xl text-dark mb-3">
                     Speed Optimized
@@ -185,14 +212,18 @@ const Services = () => {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div
                   className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
+                p-10 
+      md:px-7 
+      xl:px-10 
+      rounded-2xl 
+      bg-white 
+      shadow-md 
+      hover:shadow-xl 
+      border border-gray-200 
+      hover:border-amber-500 
+      transition-all duration-300 
+      hover:scale-105
+      mb-8
                "
                 >
                   <div
@@ -207,7 +238,7 @@ const Services = () => {
                   mb-8
                   "
                   >
-                    <FaRegObjectUngroup className='w-44 h-44 text-blue-700' />
+                    <FaRegObjectUngroup className="w-44 h-44 text-blue-700" />
                   </div>
                   <h4 className="font-semibold text-xl text-dark mb-3">
                     Fully Customizable
@@ -221,14 +252,18 @@ const Services = () => {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div
                   className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
+                p-10 
+      md:px-7 
+      xl:px-10 
+      rounded-2xl 
+      bg-white 
+      shadow-md 
+      hover:shadow-xl 
+      border border-gray-200 
+      hover:border-amber-500 
+      transition-all duration-300 
+      hover:scale-105
+      mb-8
                "
                 >
                   <div
@@ -243,7 +278,7 @@ const Services = () => {
                   mb-8
                   "
                   >
-                    <FaRegThumbsUp className='w-44 h-44 text-blue-700' />
+                    <FaRegThumbsUp className="w-44 h-44 text-blue-700" />
                   </div>
                   <h4 className="font-semibold text-xl text-dark mb-3">
                     Regular Updates
@@ -259,7 +294,7 @@ const Services = () => {
         </section>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
